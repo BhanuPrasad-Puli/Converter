@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  background-color: gray;
+}
+#app {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: cyan;
+  width: 500px;
+  margin: 20px auto 0px auto;
+}
+.container-from {
+  padding: 20px;
+}
+.container-to {
+  padding: 20px;
+}
+.convert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  padding-bottom: 20px;
+  height: 100px;
+  width: 500px;
+  margin: 0px auto 0px auto;
+}

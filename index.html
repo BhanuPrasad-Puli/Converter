@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div id="main-container">
+      <div id="app">
+        <div class="container-from">
+          <h3>From</h3>
+          <input type="text" id="input-text" />
+          <select name="bases" id="from-base">
+            <option value="10">Decimal</option>
+            <option value="16">Hexadecimal</option>
+            <option value="8">Octal</option>
+            <option value="2">Binary</option>
+          </select>
+        </div>
+        <div class="container-to">
+          <h3>To</h3>
+          <input type="text"/ id="output-text">
+          <select name="bases" id="from-base">
+            <option value="Decimal">Decimal</option>
+            <option value="Hexadecimal">Hexadecimal</option>
+            <option value="Octal">Octal</option>
+            <option value="Binary">Binary</option>
+          </select>
+        </div>
+      </div>
+      <div class="convert">
+        <button id="btn">Convert</button>
+      </div>
+      <div><span id="error-text"></span></div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
